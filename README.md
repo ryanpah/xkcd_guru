@@ -1,7 +1,7 @@
 xkcd_guru
 =========
 
-Allows easy interactions with the 'xkcd-unofficial-api'.
+Allows easy interactions with the <href='https://github.com/tibbon/xkcd_api_unofficial'>xkcd-unofficial-api'</>.
 
 
 Current Methods
