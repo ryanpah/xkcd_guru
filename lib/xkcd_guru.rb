@@ -1,5 +1,4 @@
 require 'httparty'
-require 'pry'
 
 response = HTTParty.get('http://xkcd-unofficial-api.herokuapp.com/xkcd?year=2007')
 #this gets comics 1-60
@@ -38,4 +37,3 @@ def comic_by_alt(alt)
  return HTTParty.get("http://xkcd-unofficial-api.herokuapp.com/xkcd?alt=#{alt}")
 end
 
- binding.pry

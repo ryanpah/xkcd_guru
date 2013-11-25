@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'xkcd_guru'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2013-11-25'
   s.summary     = "Allows easy interactions with the 'xkcd-unofficial-api'. "
   s.description = s.summary

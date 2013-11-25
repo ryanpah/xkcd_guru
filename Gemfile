@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'pry'
 gem 'httparty'
+
+group development do
+  gem 'pry'
+end
