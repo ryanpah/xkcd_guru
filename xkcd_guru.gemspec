@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Sherlin", "Ryan Page"]
   s.email       = ["rhymeswithmerlin@gmail.com", "rpage326@gmail.com"]
   s.files       = ["lib/xkcd_guru.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/hola'
-  s.license       = 'MIT'
+  s.homepage    = 'https://github.com/ChrisSherlin/xkcd_guru'
+  s.license     = 'MIT'
 end
