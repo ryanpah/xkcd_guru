@@ -1,8 +1,14 @@
-xkcd_guru
+XKCD Guru
 =========
 
 Allows easy interactions with the [Unofficial Xkcd Api](https://github.com/tibbon/xkcd_api_unofficial)
 
+
+## Installation 
+
+```ruby
+install gem 'xkcd_guru'
+```
 
 Current Methods
 ```ruby
