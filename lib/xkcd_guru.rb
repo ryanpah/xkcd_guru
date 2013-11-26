@@ -1,7 +1,9 @@
 require 'httparty'
 
 module XkcdGuru
+
   class Client
+    
     attr_accessor :url
     # XkcdGuru::Client.new('http://localhost:3000')
     # XkcdGuru::Client.new('http://xkcd-unofficial-api.herokuapp.com/xkcd')
