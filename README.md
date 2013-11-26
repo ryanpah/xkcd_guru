@@ -7,8 +7,11 @@ Allows easy interactions with the [Unofficial Xkcd Api](https://github.com/tibbo
 ## Installation 
 
 ```ruby
-install gem 'xkcd_guru'
+gem install xkcd_guru
 ```
+
+## Usage
+
 
 Current Methods
 ```ruby
