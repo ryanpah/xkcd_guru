@@ -4,8 +4,8 @@ module XkcdGuru
 
   class Client
     
-    attr_accessor :url
-    # XkcdGuru::Client.new('http://localhost:3000')
+    attr_accessor :url, :api_key
+    # XkcdGuru::Client.new('http://localhost:3000/xkcd')
     # XkcdGuru::Client.new('http://xkcd-unofficial-api.herokuapp.com/xkcd')
 
     def initialize(url)
@@ -29,28 +29,28 @@ module XkcdGuru
       if month
         month_text = "&month=#{month}"
        end
-      return HTTParty.get("#{@url}?year=#{year}#{month_text}#{day_text}")
+      return HTTParty.get("#{@url}year=#{year}#{month_text}#{day_text}")
      
     end
 
     def comic_by_month(month, day = nil)
-     return HTTParty.get("#{@url}?month=#{month}")
+     return HTTParty.get("#{@url}month=#{month}")
     end
 
     def comic_by_day(day)
-     return HTTParty.get("#{@url}?day=#{day}")
+     return HTTParty.get("#{@url}day=#{day}")
     end
 
     def comic_by_num(num)
-     return HTTParty.get("#{@url}?num=#{num}")
+     return HTTParty.get("#{@url}num=#{num}")
     end
 
     def comic_by_title(safe_title)
-     return HTTParty.get("#{@url}?safe_title=#{safe_title}")
+     return HTTParty.get("#{@url}safe_title=#{safe_title}")
     end
 
     def comic_by_alt(alt)
-     return HTTParty.get("#{@url}?alt=#{alt}")
+     return HTTParty.get("#{@url}alt=#{alt}")
     end
 
 
